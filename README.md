@@ -7,6 +7,7 @@ Note: delete www. or http:// or https:// from the url before starting recon.
 
 Example usage:
 python dementor.py
+
 Enter url: targetWebsite.com
 
 Disclaimer!
