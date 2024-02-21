@@ -39,7 +39,7 @@ Status : {status}""")
 def printList(printList:list):
     for item in printList:
         if(printList.index(item) == (len(printList)-1)):
-            print("%s\n" % item)
+            ("%s\n" % item)
             return
         print("%s ," % item, end="")
 
@@ -132,7 +132,6 @@ def evaluateResult(shodanResponse:dict):
         print("(-) No domain info could be found. Check DNS configuration.\n")
     if(len(vulnerabilityList) >0):
         print(f"Vulnerabilities on the server --> ", end="")
-        printList(vulnerabilityList)
         print("Vulnerability reference links:\n|")
         referenceLinks = []
         for vuln in vulnerabilityList:
